@@ -14,7 +14,6 @@ function getTranslationUrl(text){
 
 // error handling
 function errorHandler(error){
-    console.log(" error occured",error);
     errorDiv.innerText="We are sorry. You can only use this for 5 times per hour. Try again later.";
 }
 
